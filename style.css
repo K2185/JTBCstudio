@@ -54,9 +54,10 @@ h1.logo_title img {
 }
 
 #gnb .depth2 {
-    margin-top: 45px;
+    margin-top: 39px;
     padding: 10px;
     display: none;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #gnb > ul > li:hover > .depth2{
@@ -69,14 +70,10 @@ h1.logo_title img {
 }
 #gnb .depth2 > li > a {
     color: #fff;
-    text-shadow: 1px 1px 3px #000;
 }
 
 #gnb > ul > li > a:hover {
     text-decoration: underline;
-}
-#gnb > ul > li:last-child > a:hover {
-    text-decoration: none;
 }
 
 #gnb .depth2 > li > a:hover {
